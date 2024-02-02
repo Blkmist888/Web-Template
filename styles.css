@@ -1,13 +1,14 @@
-
-
-body{background-color:wheat;}
-
+@font-face {
+    font-family:Montserrat ;
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+*{font-family: "Montserrat";}
 #DivContainer{display: flex;
 flex: 1 1 1;
 flex-direction: column;
 flex-wrap: wrap;
 }
-
+body{background-color: grey;}
 h1{color: darkgoldenrod;}
 #header{background-color: coral;}
 #footer{background-color: greenyellow;}
