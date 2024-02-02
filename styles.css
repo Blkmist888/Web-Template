@@ -1,7 +1,17 @@
 
-h1{color: aquamarine;}
+
+body{background-color:wheat;}
+
 #DivContainer{display: flex;
-flex-wrap: wrap;}
+flex: 1 1 1;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+h1{color: darkgoldenrod;}
+#header{background-color: coral;}
+#footer{background-color: greenyellow;}
+img{width: 100px; height: 100px;}
 
 #containerOne{ background-color: yellow;}
 #containerTwo{background-color: aqua;}
