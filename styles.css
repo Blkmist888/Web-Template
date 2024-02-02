@@ -2,19 +2,38 @@
     font-family:Montserrat ;
     src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
+
 *{font-family: "Montserrat";}
+
 #DivContainer{display: flex;
 flex: 1 1 1;
 flex-direction: column;
 flex-wrap: wrap;
+border: 5px solid red;
+}
+.divide{ border: 5px solid blue;
+
 }
 body{background-color: grey;}
+
 h1{color: darkgoldenrod;}
+
 #header{background-color: coral;}
+
 #footer{background-color: greenyellow;}
+
 img{width: 100px; height: 100px;}
 
+p{ display: flex;
+    justify-self:flex-start;
+max-width: min-content;
+font-size: small;
+flex-wrap: wrap;}
+
 #containerOne{ background-color: yellow;}
+
 #containerTwo{background-color: aqua;}
+
 #containerThree{background-color: indianred;}
+
 #containerFour{background-color: burlywood;}
