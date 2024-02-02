@@ -10,13 +10,16 @@ flex: 1 1 1;
 flex-direction: column;
 flex-wrap: wrap;
 border: 5px solid red;
+gap: 25px;
 }
+
 .divide{ border: 5px solid blue;
+    padding: 10px;
 
 }
 body{background-color: grey;}
 
-h1{color: darkgoldenrod;}
+#title{background-color: aliceblue;}
 
 #header{background-color: coral;}
 
@@ -25,10 +28,9 @@ h1{color: darkgoldenrod;}
 img{width: 100px; height: 100px;}
 
 p{ display: flex;
-    justify-self:flex-start;
-max-width: min-content;
 font-size: small;
-flex-wrap: wrap;}
+flex-wrap: nowrap;
+}
 
 #containerOne{ background-color: yellow;}
 
