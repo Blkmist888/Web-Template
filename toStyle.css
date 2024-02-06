@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family:Montserrat ;
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+*{font-family: "Montserrat";
+overflow:visible;
+font-weight: bold;
+height: 120%;}
+
+body{ background-color:bisque;
+
+}
+
+.parent{display: flex;
+    gap: 10px;
+border: 1em solid;}
+
+#header{ 
+   
+    background-color: gold;
+  
+    border: 1em solid blue;
+    height: fit-content;
+}
+
+#middleContainer{
+    background-color: brown;
+}
+
+#footer{ background-color: white;
+    border: 1em solid chartreuse;
+height: fit-content;
+}

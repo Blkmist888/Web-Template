@@ -3,33 +3,39 @@
     src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
-*{font-family: "Montserrat";}
+*{font-family: "Montserrat";
+overflow: auto;}
 
 #DivContainer{display: flex;
 flex: 1 1 1;
 flex-direction: column;
 flex-wrap: wrap;
 border: 5px solid red;
-gap: 25px;
+gap: 20px;
+
 }
 
 .divide{ border: 5px solid blue;
     padding: 10px;
 
 }
+
 body{background-color: grey;}
 
 #title{background-color: aliceblue;}
 
-#header{background-color: coral;}
+#header{background-color: coral;
+    display: flex;
+}
 
 #footer{background-color: greenyellow;}
 
 img{width: 100px; height: 100px;}
 
+a{background-color: aliceblue;}
+
 p{ display: flex;
 font-size: small;
-flex-wrap: nowrap;
 }
 
 #containerOne{ background-color: yellow;}
